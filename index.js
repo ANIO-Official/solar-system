@@ -220,3 +220,5 @@ const system = {
     console.log(`Update: Mercury radiusp is ${system.mercury.radiusp} AND radiuse is ${system.mercury.radiuse} `)
 
 // 6. Find the difference between Jupiter's momentum and Pluto's momentum. (To get momentum, you'll want the product of velocity and mass).
+    let momentumDiff = (system.jupiter.velocity * system.jupiter.mass) - (system.pluto.velocity * system.pluto.mass)
+    console.log(`YEAH JUPITER COULD BEAT UP PLUTO. THEY HAVE A MOMENTUM DIFF OF ${momentumDiff}. So yeah...`)
