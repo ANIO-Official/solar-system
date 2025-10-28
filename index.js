@@ -204,13 +204,18 @@ const system = {
     console.log(`The mass of Mecury is ${system.mercury.mass}`)
 
 // 2. Console.log the eccentricity of Venus
-
+    console.log(`Venus's eccentricity is ${system.venus.eccentricity}`)
 
 // 3. Console.log the sum of the number of satellites of Jupiter, Saturn, Uranus, and Neptune (131)
+    let satelliteSum = parseInt(system.jupiter.satellites) + parseInt(system.saturn.satellites) + parseInt(system.uranus.satellites) + parseInt(system.neptune.satellites)
+    console.log(`If you add all the satelites of Jupiter, Saturn, Uranus, and Neptune, it would equal ${satelliteSum}`)
 
-
-// 4. Write a conditional that checks if Mercury's radiusp is a string (remember the typeof command). If Mercury's radiusp is a string, change the value to be the same as its radiuse value. (radiusp is radius at the poles, radiuse is radius at the equator).
-
+/* 4. Write a conditional that checks if Mercury's radiusp is a string (remember the typeof command).
+    If Mercury's radiusp is a string, change the value to be the same as its radiuse value. (radiusp is radius at the poles, radiuse is radius at the equator).*/
+    if( typeof system.mercury.radiusp === "string"){
+        system.mercury.radiusp = system.mercury.radiuse
+        console.log(`Update: Mercury radiusp is ${system.mercury.radiusp} AND radiuse is ${system.mercury.radiuse} `)
+    }
 
 // 5. Console.log Mercury's radiusp (should be 2439, not 'same').
 
