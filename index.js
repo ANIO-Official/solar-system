@@ -214,10 +214,9 @@ const system = {
     If Mercury's radiusp is a string, change the value to be the same as its radiuse value. (radiusp is radius at the poles, radiuse is radius at the equator).*/
     if( typeof system.mercury.radiusp === "string"){
         system.mercury.radiusp = system.mercury.radiuse
-        console.log(`Update: Mercury radiusp is ${system.mercury.radiusp} AND radiuse is ${system.mercury.radiuse} `)
     }
 
 // 5. Console.log Mercury's radiusp (should be 2439, not 'same').
-
+    console.log(`Update: Mercury radiusp is ${system.mercury.radiusp} AND radiuse is ${system.mercury.radiuse} `)
 
 // 6. Find the difference between Jupiter's momentum and Pluto's momentum. (To get momentum, you'll want the product of velocity and mass).
