@@ -2,6 +2,8 @@
 // The Solar System, Part 1 //
 //////////////////////////////
 
+//Feel free to comment out any console.log checks.
+
 //Array of objects.
 const solarSystem = [
   { name: "Mercury", ringSystem: false, moons: [] },
@@ -221,4 +223,4 @@ const system = {
 
 // 6. Find the difference between Jupiter's momentum and Pluto's momentum. (To get momentum, you'll want the product of velocity and mass).
     let momentumDiff = (system.jupiter.velocity * system.jupiter.mass) - (system.pluto.velocity * system.pluto.mass)
-    console.log(`YEAH JUPITER COULD BEAT UP PLUTO. THEY HAVE A MOMENTUM DIFF OF ${momentumDiff}. So yeah...`)
+    console.log(`YEAH JUPITER COULD BEAT UP PLUTO. THEY HAVE A MOMENTUM DIFF OF ${momentumDiff}. So yeah...`) //check
