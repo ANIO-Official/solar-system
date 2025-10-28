@@ -45,10 +45,6 @@ Here are my general methods for completing tasks:
 
 ### Built with
 - JavaScript
-- Semantic HTML
-- CSS
-- BootStrap/Other CSS Libraries
-- etc/other
 
 ### Useful resources
 
